@@ -27,8 +27,7 @@ class Deposit:
 
 first_depo = Deposit(30000, 0.02, '2018-04-10', '2018-05-30')
 
-print(first_depo.duration())
-print(first_depo.interests())
+
 
       
         
