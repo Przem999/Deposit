@@ -25,12 +25,3 @@ class Deposit:
         dt = (self.date_to) - (self.date_from)
         return self.amount * self.interest / 365 * (dt.total_seconds() / timedelta (days=1).total_seconds())
 
-first_depo = Deposit(30000, 0.02, '2018-04-10', '2018-05-30')
-
-
-
-      
-        
-
-
-
